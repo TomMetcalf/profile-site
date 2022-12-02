@@ -11,12 +11,12 @@
 
 <body>
     <header>
-        <h1 id="main-header">Tom Seager</h1>
-        <nav>
-            <div><a href="./about.html">About</a></div>
-            <div><a href="./artwork.html">Artwork</a></div>
-            <div><a href="./animations.html">Animations</a></div>
-            <div><a href="./contact.html">Contact</a></div>
+        <h1 id="main-header"><a href="./index.html">Tom Seager</a></h1>
+        <nav id="nav">
+            <div><a class="top-nav-link" href="./about.html">About</a></div>
+            <div><a class="top-nav-link" href="./artwork.html">Artwork</a></div>
+            <div><a class="top-nav-link" href="./animations.html">Animations</a></div>
+            <div><a class="top-nav-link" href="./contact.html">Contact</a></div>
         </nav>
     </header>
     <main>
@@ -25,16 +25,20 @@
             using a variety of techniques, inclucing <a href="https://en.wikipedia.org/wiki/Stop_motion"
                 target="_blank">stop-motion</a> to <a href="https://en.wikipedia.org/wiki/Rotoscoping"
                 target="_blank">rotoscoping</a>.</p>
+        <section class="images">
+            <img src="./resources/tom_seager_art-mitch_crews.jpeg"
+                alt="multiple overlayed images showing a surf top turn sequence">
 
-        <img src="./resources/tom_seager_art-mitch_crews.jpeg"
-            alt="multiple overlayed images showing a surf top turn sequence">
+            <video src="./resources/tom_seager_art-tia_blanco_video.mp4" type="video/mp4" controls autoplay loop
+                muted></video>
 
-        <video src="./resources/tom_seager_art-tia_blanco_video.mp4" type="video/mp4" controls autoplay loop
-            muted></video>
+            <img src="https://instagram.flhr1-1.fna.fbcdn.net/v/t51.2885-15/280043791_153199177194930_666653378480976541_n.jpg?stp=dst-jpg_e35&_nc_ht=instagram.flhr1-1.fna.fbcdn.net&_nc_cat=106&_nc_ohc=0_Mek_Lge_IAX-sl-17&edm=AP_V10EBAAAA&ccb=7-5&oh=00_AfCx9ZqGgPTWsmbEhQ9onNP7yi4KspCnrUuysAof8yoeaw&oe=638E1A8C&_nc_sid=4f375e"
+                alt="multiple overlayed images showing a surf top turn sequence set out in a square">
 
-        <img src="https://instagram.flhr1-1.fna.fbcdn.net/v/t51.2885-15/280043791_153199177194930_666653378480976541_n.jpg?stp=dst-jpg_e35&_nc_ht=instagram.flhr1-1.fna.fbcdn.net&_nc_cat=106&_nc_ohc=0_Mek_Lge_IAX-sl-17&edm=AP_V10EBAAAA&ccb=7-5&oh=00_AfCx9ZqGgPTWsmbEhQ9onNP7yi4KspCnrUuysAof8yoeaw&oe=638E1A8C&_nc_sid=4f375e"
-            alt="multiple overlayed images showing a surf top turn sequence set out in a square">
-        <video src="./resources/tom_seaget_art-@k4r7o_loop.mp4" type="video/mp4" controls autoplay loop></video>
+            <video src="./resources/tom_seaget_art-@k4r7o_loop.mp4" type="video/mp4" controls autoplay loop
+                muted></video>
+        </section>
+
         <h3>Tom Seager Art has created animations of the following surfers</h3>
         <ul>
             <li>Tia Blanco</li>
@@ -46,8 +50,10 @@
         <h3>Bringing Art to Life</h3>
         <p>Using AR technology (<a href="https://en.wikipedia.org/wiki/Augmented_reality" target="_blank">Augmented
                 Reality</a>) a still image can be magically brought to life.</p>
-        <video src="./resources/tom_seager_art-AR_picture_demo.mp4" type="video/mp4" controls autoplay loop></video>
-
+        <div class="augmented">
+            <video src="./resources/tom_seager_art-AR_picture_demo.mp4" type="video/mp4" controls autoplay loop
+                muted></video>
+        </div>
         <h3>Animations are created using the following tools</h3>
 
         <ol>
@@ -57,18 +63,22 @@
             <li>Rough Animator</li>
             <li>Stop Motion Studio</li>
         </ol>
-
-        <video src="./resources/tom_seager_art-stop_motion_loop.mp4" type="video/mp4" controls autoplay loop></video>
+        <div class="stop-motion">
+            <video src="./resources/tom_seager_art-stop_motion_loop.mp4" type="video/mp4" controls autoplay loop
+                muted></video>
+        </div>
     </main>
-    <a href="#main-header">Back to Top</a>
+    <div class="back-to-top-btn">
+    <button class="back-to-top"><a class="back-to-top" href="#main-header">Back to Top</a></button>
+    </div>
     <footer>
-        <nav>
-            <div><a href="./about.html">About</a></div>
-            <div><a href="./artwork.html">Artwork</a></div>
-            <div><a href="./animations.html">Animations</a></div>
-            <div><a href="./contact.html">Contact</a></div>
+        <nav id="footer-links">
+            <a class="footer-link" href="./about.html">About</a>
+            <a class="footer-link" href="./artwork.html">Artwork</a>
+            <a class="footer-link" href="./animations.html">Animations</a>
+            <a class="footer-link" href="./contact.html">Contact</a>
             <h4>Follow on Social Media</h4>
-            <a href="https://www.instagram.com/tomseagerart/?hl=en">Tom Seaget Art on Instrgram</a>
+            <a class="footer-link" href="https://www.instagram.com/tomseagerart/?hl=en">Tom Seager Art on Instagram</a>
         </nav>
     </footer>
 
