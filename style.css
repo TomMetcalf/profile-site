@@ -28,6 +28,14 @@ h1 a {
     text-decoration: none;
 }
 
+a {
+    color: black;
+}
+
+p {
+    text-align: justify;
+}
+
 #nav {
     display: flex;
     justify-content: space-evenly;
@@ -44,14 +52,23 @@ h1 a {
 }
 
 .top-nav-link:hover {
-    font-size: 1.3em;
-    font-weight: 600;
+    /* font-size: 1.3em;
+    font-weight: 600; */
     text-decoration: underline;
 }
 
-h2,
+h2 {
+margin: 1em 0;
+}
+
 h3 {
-    margin: 1em 0;
+    margin: 1em 7.5%;
+}
+
+.about-tom-seager,
+.text-margin {
+margin: 0 7.5%;
+/* border: 1px solid black; */
 }
 
 .images {
